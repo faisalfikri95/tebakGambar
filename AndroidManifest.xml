@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NasibActivity"
+            android:label="@string/title_activity_nasib" >
+        </activity>
+        <activity
+            android:name=".SambelActivity"
+            android:label="@string/title_activity_sambel" >
+        </activity>
+        <activity
+            android:name=".FinishActivity"
+            android:label="@string/title_activity_finish" >
+        </activity>
+        <activity
+            android:name=".AlasKaki"
+            android:label="@string/title_activity_alas_kaki" >
+        </activity>
+        <activity
+            android:name=".AsapBeracunActivity"
+            android:label="@string/title_activity_asap_beracun" >
+        </activity>
+        <activity
+            android:name=".CeritaMiring"
+            android:label="@string/title_activity_cerita_miring" >
+        </activity>
+        <activity
+            android:name=".DaurUlang"
+            android:label="@string/title_activity_daur_ulang" >
+        </activity>
+        <activity
+            android:name=".JamKosong"
+            android:label="@string/title_activity_jam_kosong" >
+        </activity>
+        <activity
+            android:name=".JawabanPolos"
+            android:label="@string/title_activity_jawaban_polos" >
+        </activity>
+        <activity
+            android:name=".LahanDiBakar"
+            android:label="@string/title_activity_lahan_di_bakar" >
+        </activity>
+        <activity
+            android:name=".MintaUang"
+            android:label="@string/title_activity_minta_uang" >
+        </activity>
+        <activity
+            android:name=".SumpahPocong"
+            android:label="@string/title_activity_sumpah_pocong" >
+        </activity>
+        <activity
+            android:name=".SuratTilang"
+            android:label="@string/title_activity_surat_tilang" >
+        </activity>
+        <activity
+            android:name=".PertikaianSeru"
+            android:label="@string/title_activity_pertikaian_seru" >
+        </activity>
+    </application>
+
+</manifest>
